@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:8000/api/library/';
+const baseURL = 'https://oduum.pythonanywhere.com/api/library/';
 
 export const deleteItem = async (apiName, id) => {
   try {

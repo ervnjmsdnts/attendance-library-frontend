@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:8000/api/attendance/';
+const baseURL = 'https://oduum.pythonanywhere.com/api/attendance/';
 
 export const getSections = async () => {
   try {
