@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Attendance from './Attendance/AttendanceForm';
 import Library from './Library/LibraryForm';
+import Logo from '../../assets/images/beclogo.png';
 
 const AttendanceLibraryForm = () => {
   const [isAttendance, setIsAttendance] = useState(true);
@@ -19,11 +20,7 @@ const AttendanceLibraryForm = () => {
   return (
     <>
       <div className='d-flex justify-content-center align-items-center flex-column'>
-        <img
-          src='https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.0-9/17553468_764224753728501_3708580566717280012_n.png?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Nk_NdIX2i1EAX9GvjsQ&_nc_ht=scontent.fmnl17-4.fna&oh=de28ccdc73085cfb0c1f842904528db8&oe=6082FF56'
-          alt='bec logo'
-          style={{ width: '16rem' }}
-        />
+        <img src={Logo} alt='bec logo' style={{ width: '16rem' }} />
         <br />
         <div className='row'>
           <div className='card m-3 w-100'>
